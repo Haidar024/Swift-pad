@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editfile</title>
+    <link rel="stylesheet" href="/stylesheets/style2.css">
+</head>
+<body>
+    <form class="inner" action="/editfile" method="post">
+        <input type="text" name="old" id="title" value="<%= filename %>" placeholder="Old Name"><br><br>
+        <input type="text" name="new" id="title" placeholder="New Name"><br><br>
+        <input type="submit" value="Update" id="submit">
+        <p><a href="/">Back to Home</a></p>
+    </form>
+</body>
+</html>
