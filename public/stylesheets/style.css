@@ -22,7 +22,6 @@ html,body{
     display: block;
     margin: auto;
     resize: none;
-    min-width: 500px;
     min-height: 200px;
     border-radius: 15px;
     padding: 5px;
@@ -36,7 +35,6 @@ html,body{
     margin-top: 50px;
 }
 #title{
-    min-width: 500px;
     padding: 8px;
     outline:darkslateblue;
     border: 2px transparent;
